@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0.884);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+
+}
+
+.container-menu {
+    width: 1480px;
+    height: 85px;
+    background-color: black;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 30px rgba(116, 109, 109, 0.438);
+}
+
+.menu-toggle {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    left: 45px;
+    top: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    position: relative;
+    background-color: #4B0082;
+    width: 200px;
+    display: none;
+    height: 100px;
+    left: 90px;
+    top: -22px;
+    border-radius: 0 20px 20px;
+}
+
+.nav-list.visible{
+    display: block;
+}
+
+.menu-toggle:checked+.nav-list {
+    display: block;
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#l-m {
+    position: relative;
+    top: 25px;
+    left: -20px;
+}
+
+#l-n {
+    position: relative;
+    top: 35px;
+    left: -20px;
+}
+
+#icone {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -59px;
+    left: 55px;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+    right: 200px;
+    top: -19px;
+    font-size: 50px;
+}
+
+
+#st-agostinho {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    top: 90px;
+    left: 890px;
+    border-radius: 350px;
+    border: 2px solid #fff;
+}
+
+#sm-agostinho {
+    position: relative;
+    top: 120px;
+    left: 500px;
+}
+
+.p-texto {
+    position: relative;
+    top: -430px;
+    left: 70px;
+}
+
+#titulo-patristica {
+    position: relative;
+    top: -60px;
+    left: 40px;
+    font-size: 55px;
+}
+
+#p-texto-ag {
+    position: relative;
+    top: -65px;
+    font-size: 16.5px;
+}
+
+.swiper {
+    position: relative;
+    top: -350px;
+    box-shadow: 0 0 30px rgba(116, 109, 109, 0.438);
+}
+
+#platao-image {
+    position: relative;
+    left: 360px;
+}
+
+#platao-card-text {
+    position: relative;
+    top: -450px;
+    left: 129px;
+}
+
+#ah-image {
+    position: relative;
+    left: 100px;
+    top: 40px;
+    width: 500px;
+    height: 500px;
+    border-radius: 0 90px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 30px rgba(116, 109, 109, 0.438);
+}
+
+#ag-card-text {
+    position: relative;
+    top: -390px;
+    left: 650px;
+}
+
+#card-descri {
+    position: relative;
+    top: 65px;
+    right: 220px;
+}
+
+#st-aquino {
+    position: relative;
+    left: 20px;
+    height: 500px;
+    width: 500px;
+    top: -150px;
+    border-radius: 350px;
+    border: 2px solid #fff;
+}
+
+#sm-aquin {
+    position: relative;
+    right: 380px;
+    top: -120px;
+}
+
+#escolastica {
+    position: relative;
+    left: 620px;
+    top: -740px;
+    font-size: 55px;
+}
+
+#e-card-text {
+    position: relative;
+    left: 575px;
+    top: -720px;
+}
+
+#P {
+    position: relative;
+    left: 140px;
+    top: -450px;
+}
+
+#S {
+    position: relative;
+    top: -400px;
+    left: 670px;
+}
+
+#aristoteles {
+    position: relative;
+    top: 50px;
+    left: 730px;
+    width: 700px;
+    border-radius: 0 40px;
+    border: 2px solid #fff;
+}
+
+#git {
+    position: relative;
+    top: -359px;
+    left: 80px;
+}
+
+#giticon {
+    position: relative;
+    width: 50px;
+    top: -345px;
+    right: 35px;
+}
