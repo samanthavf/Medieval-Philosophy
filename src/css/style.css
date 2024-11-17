@@ -1,17 +1,20 @@
-body {
+body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    background: rgba(0, 0, 0, 0.884);
+    position: absolute;
+    background:  rgba(0, 0, 0, 0.884);
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
     color: #fff;
-
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
+
 .container-menu {
-    width: 1480px;
+    width: 100%;
     height: 85px;
     background-color: black;
     border-bottom: 2px solid white;
@@ -30,7 +33,7 @@ body {
 
 .nav-list {
     position: relative;
-    background-color: #4B0082;
+    background-color: rgba(75, 0, 130, 0.7);
     width: 200px;
     display: none;
     height: 100px;
@@ -117,8 +120,9 @@ ul a {
 }
 
 .swiper {
-    position: relative;
+    position: absolute;
     top: -350px;
+    height: 590px;
     box-shadow: 0 0 30px rgba(116, 109, 109, 0.438);
 }
 
@@ -199,22 +203,46 @@ ul a {
 
 #aristoteles {
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 730px;
-    width: 700px;
+    width: 600px;
     border-radius: 0 40px;
     border: 2px solid #fff;
 }
 
+.s-aristoteles{
+    position: absolute;
+    margin-top: -250px;
+    width: 100%;
+    height: 290px;
+}
+
 #git {
     position: relative;
-    top: -359px;
+    top: 9px;
     left: 80px;
 }
 
 #giticon {
     position: relative;
-    width: 50px;
-    top: -345px;
+    top: 25px;
+    width: 45px;
     right: 35px;
 }
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.links-container{
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    bottom: 345px;
+    background: rgba(0, 0, 0, 0.884);
+    box-shadow: 0 0 30px rgba(116, 109, 109, 0.438);
+}
+
+
